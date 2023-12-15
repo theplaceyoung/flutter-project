@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter/dart.ui';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+
       home: Scaffold(
         appBar: AppBar(
           leading: Icon(Icons.circle_notifications),
